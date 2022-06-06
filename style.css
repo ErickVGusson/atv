@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: flex-end;
+    margin: 27px 60px 50px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+
+.intro {
+    margin-top: 158px;
+    margin-left: 146px;
+    display: flex;
+}
+
+.intro-texto h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.intro-texto p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 40px 0;
+    color: #21243D;
+}
+
+.intro-texto button {
+    padding: 13px 20px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background: #FF6464;
+}
+
+.intro-img img {
+    margin-left: 106px;
+    border-radius: 50%;
+    box-shadow: -5px 10px 0px #EDF7FA;
+}
+
+.posts-box {
+    background-color: #EDF7FA;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    padding: 10px 0;
+}
+
+.posts-titles {
+    margin: 0 146px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posts-titles h1 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #21243D;
+}
+
+.posts-titles a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #00A8CC;
+}
+
+.posts {
+    margin: 0 146px;
+    display: flex;
+}
+
+.post-esquerdo {
+    background-color: #fff;
+    margin-right: 20px;
+    padding: 10px;
+    width: 418px;
+    margin-bottom: 32px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+
+.post-esquerdo h1 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #21243D;
+}
+
+.post-esquerdo h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 15px 0;
+    color: #21243D;
+}
+
+.post-esquerdo p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.post-direito {
+    background-color: #fff;
+    padding: 10px;
+    width: 418px;
+    margin-bottom: 32px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+
+.post-direito h1 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #21243D;
+}
+
+.post-direito h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 15px 0;
+    color: #21243D;
+}
+
+.post-direito p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.destacados {
+    margin: 0 146px;
+}
+
+.destacados h1 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #21243D;
+    line-height: 60px;
+    margin: 15px 0;
+}
+
+.destacados-box {
+    display: flex;
+}
+
+.destacados-texto {
+    margin-left: 18px;
+}
+
+.destacados-texto h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    margin: -10px 0;
+}
+
+.destacados-ano {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 60px;
+    padding: 0 10px;
+    border-radius: 16px;
+    color: white;
+    background: #142850;
+    margin-right: 26px;
+}
+
+.span-texto {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.destacados-texto p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #21243D;
+}
+
+hr {
+    margin: 30px;
+    color: #8695A4;
+    margin-left: -1px;
+    border: 1px solid #E0E0E0;
+}
+
+
+
+
+
+
+
+
+.footer {
+    margin-top: 80px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logos img {
+    margin: 26px;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 54px;
+    color: #21243D;
+}
